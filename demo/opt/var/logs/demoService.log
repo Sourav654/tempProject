@@ -1,0 +1,152 @@
+2021-08-25 00:25:03.476  INFO 10484 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0-292 on LAPTOP-AP0GKULM with PID 10484 (started by srvmu in C:\Users\srvmu\Apps\CodeBase\demo)
+2021-08-25 00:25:03.492  INFO 10484 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2021-08-25 00:25:03.607 DEBUG 10484 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77258e59
+2021-08-25 00:25:05.355  INFO 10484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-25 00:25:05.373  INFO 10484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2021-08-25 00:25:05.609  WARN 10484 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2021-08-25 00:25:07.728 DEBUG 10484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-08-25 00:25:08.486  INFO 10484 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-08-25 00:25:09.184 DEBUG 10484 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-25 00:25:09.295 DEBUG 10484 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/true/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-08-25 00:25:09.340 DEBUG 10484 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /true/swagger-ui/**] in 'resourceHandlerMapping'
+2021-08-25 00:25:09.370 DEBUG 10484 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-25 00:25:09.782  INFO 10484 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b8aaed86-6c42-4b50-a75b-873eb49354f4
+
+2021-08-25 00:25:10.178  INFO 10484 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16e195cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@8b670c0, org.springframework.security.web.header.HeaderWriterFilter@2e2b9f53, org.springframework.web.filter.CorsFilter@3212d853, org.springframework.security.web.csrf.CsrfFilter@4e94669c, org.springframework.security.web.authentication.logout.LogoutFilter@30fbc23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b021664, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e2d44f3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@74c7522c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@16ea0f22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22fb9a2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b7068d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77c23d90, org.springframework.security.web.session.SessionManagementFilter@1b3bec6c, org.springframework.security.web.access.ExceptionTranslationFilter@6ef037e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17884d]
+2021-08-25 00:25:10.310  INFO 10484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-25 00:25:10.609  INFO 10484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-25 00:25:11.940  INFO 10484 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 8.905 seconds (JVM running for 10.21)
+2021-08-25 00:25:12.451  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Using Alphabetic
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : reset name char
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Using Alphabetic
+2021-08-25 00:25:12.453  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : reset name char
+2021-08-25 00:25:12.454  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:25:12.454  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Using Alphabetic
+2021-08-25 00:25:12.454  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : reset name char
+2021-08-25 00:25:12.468  INFO 10484 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Response: com.example.demo.model.MyResponse@5bdb9c69[countThreeSixNine=3,idName=-1100323583123456789,name=iCY]
+2021-08-25 00:25:12.502 DEBUG 10484 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@77258e59, started on Wed Aug 25 00:25:03 IST 2021
+2021-08-25 00:25:12.511  INFO 10484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-25 00:25:12.517  INFO 10484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-25 00:28:45.878  INFO 3516 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0-292 on LAPTOP-AP0GKULM with PID 3516 (started by srvmu in C:\Users\srvmu\Apps\CodeBase\demo)
+2021-08-25 00:28:45.882  INFO 3516 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2021-08-25 00:28:45.967 DEBUG 3516 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@512535ff
+2021-08-25 00:28:47.499  INFO 3516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-25 00:28:47.513  INFO 3516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-08-25 00:28:47.730  WARN 3516 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2021-08-25 00:28:49.653 DEBUG 3516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-08-25 00:28:50.392  INFO 3516 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-08-25 00:28:51.044 DEBUG 3516 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-25 00:28:51.143 DEBUG 3516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/true/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-08-25 00:28:51.193 DEBUG 3516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /true/swagger-ui/**] in 'resourceHandlerMapping'
+2021-08-25 00:28:51.222 DEBUG 3516 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-25 00:28:51.662  INFO 3516 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1bf6d1ce-c520-4004-931c-6e9352ecca6d
+
+2021-08-25 00:28:52.090  INFO 3516 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1377b1a0, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a4c98d7, org.springframework.security.web.header.HeaderWriterFilter@66f2ec1c, org.springframework.web.filter.CorsFilter@48cf8414, org.springframework.security.web.csrf.CsrfFilter@45cd8607, org.springframework.security.web.authentication.logout.LogoutFilter@7b7068d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ccdc7aa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@360d41d0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@27dbaa33, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d1c5cf2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2026fbff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fbb1144, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15d65fcf, org.springframework.security.web.session.SessionManagementFilter@12e5d3e1, org.springframework.security.web.access.ExceptionTranslationFilter@41bb1f09, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7eee6c13]
+2021-08-25 00:28:52.206  INFO 3516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-25 00:28:52.445  INFO 3516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-25 00:28:53.632  INFO 3516 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 8.129 seconds (JVM running for 9.596)
+2021-08-25 00:28:54.134  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:28:54.136  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Using Alphabetic
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : reset name char
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Using Alphabetic
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : reset name char
+2021-08-25 00:28:54.137  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : continue to new value.
+2021-08-25 00:28:54.138  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Using Alphabetic
+2021-08-25 00:28:54.138  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : reset name char
+2021-08-25 00:28:54.152  INFO 3516 --- [main] c.e.demo.service.impl.DemoServiceImpl    : Response: com.example.demo.model.MyResponse@37c74e4e[countThreeSixNine=3,idName=1637142618123456789,name=iCY]
+2021-08-25 00:28:54.188 DEBUG 3516 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@512535ff, started on Wed Aug 25 00:28:45 IST 2021
+2021-08-25 00:28:54.198  INFO 3516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-25 00:28:54.204  INFO 3516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-25 00:30:20.590  INFO 7648 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0-292 on LAPTOP-AP0GKULM with PID 7648 (C:\Users\srvmu\Apps\CodeBase\demo\target\classes started by srvmu in C:\Users\srvmu\Apps\CodeBase\demo)
+2021-08-25 00:30:20.596  INFO 7648 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: local
+2021-08-25 00:30:20.726  INFO 7648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:30:22.657  INFO 7648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-25 00:30:22.670  INFO 7648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-08-25 00:30:22.953  WARN 7648 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2021-08-25 00:30:24.163  INFO 7648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-25 00:30:24.177  INFO 7648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-25 00:30:24.177  INFO 7648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-25 00:30:24.267  INFO 7648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-08-25 00:30:24.267  INFO 7648 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3540 ms
+2021-08-25 00:30:24.534  INFO 7648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-25 00:30:24.806  INFO 7648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-25 00:30:24.822  INFO 7648 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d8415232-bc25-43dd-9513-12a5559f7a5c'
+2021-08-25 00:30:25.013 DEBUG 7648 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-08-25 00:30:25.013 DEBUG 7648 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], webServlet urls=[/h2-console/*]
+2021-08-25 00:30:26.445 DEBUG 7648 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-08-25 00:30:26.761  INFO 7648 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-08-25 00:30:27.463  INFO 7648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-25 00:30:27.499 DEBUG 7648 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-25 00:30:27.698 DEBUG 7648 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/true/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-08-25 00:30:27.782 DEBUG 7648 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /true/swagger-ui/**] in 'resourceHandlerMapping'
+2021-08-25 00:30:27.852 DEBUG 7648 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-25 00:30:28.488  INFO 7648 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8cbb4a05-3c8f-4894-a28b-b8faae75f041
+
+2021-08-25 00:30:29.124  INFO 7648 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d2b4266, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f398f58, org.springframework.security.web.header.HeaderWriterFilter@8a2b220, org.springframework.web.filter.CorsFilter@6eaf7961, org.springframework.security.web.csrf.CsrfFilter@4073d981, org.springframework.security.web.authentication.logout.LogoutFilter@45cbd67e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@110fd4f9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@224fbc24, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6b7db6ae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5a3bed8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c9f5015, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f010647, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bf60ca8, org.springframework.security.web.session.SessionManagementFilter@b4681ec, org.springframework.security.web.access.ExceptionTranslationFilter@5604963a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cb57afb]
+2021-08-25 00:30:29.981  INFO 7648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2021-08-25 00:30:31.056  INFO 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-25 00:30:31.057  INFO 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-25 00:30:31.057 DEBUG 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-08-25 00:30:31.057 DEBUG 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-08-25 00:30:31.057 DEBUG 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-08-25 00:30:31.059 DEBUG 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@461a2595
+2021-08-25 00:30:31.059 DEBUG 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5c2b98a5
+2021-08-25 00:30:31.059 DEBUG 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-25 00:30:31.059  INFO 7648 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-25 00:30:31.148  INFO 7648 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 11.307 seconds (JVM running for 13.274)
+2021-08-25 00:31:09.428 DEBUG 7648 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:09.502 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:15.464 DEBUG 7648 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:15.913 DEBUG 7648 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:15.922 DEBUG 7648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/demo/", parameters={}
+2021-08-25 00:31:15.998 DEBUG 7648 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2021-08-25 00:31:16.016 DEBUG 7648 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [links: [<http://localhost:8080/demo/profile>;rel="profile"]]
+2021-08-25 00:31:16.130 DEBUG 7648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-25 00:31:24.287 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:24.287 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/demo/demo", parameters={}
+2021-08-25 00:31:24.290 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:24.295 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-08-25 00:31:24.296 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-08-25 00:31:24.304 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/demo/error", parameters={}
+2021-08-25 00:31:24.307 DEBUG 7648 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-08-25 00:31:24.382 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-08-25 00:31:24.391 DEBUG 7648 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-08-25 00:31:39.778 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:39.779 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/demo/newResp", parameters={}
+2021-08-25 00:31:39.782 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:39.786 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-08-25 00:31:39.787 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-08-25 00:31:39.788 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/demo/error", parameters={}
+2021-08-25 00:31:39.789 DEBUG 7648 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-08-25 00:31:39.817 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-08-25 00:31:39.818 DEBUG 7648 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-08-25 00:31:43.109 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:43.109 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/demo/newResp", parameters={}
+2021-08-25 00:31:43.112 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-08-25 00:31:43.114 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-08-25 00:31:43.114 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-08-25 00:31:43.115 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/demo/error", parameters={}
+2021-08-25 00:31:43.117 DEBUG 7648 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-08-25 00:31:43.154 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-08-25 00:31:43.155 DEBUG 7648 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-08-25 00:31:55.463 DEBUG 7648 --- [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator root web endpoint
+2021-08-25 00:31:55.464 DEBUG 7648 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/demo/actuator/", parameters={}
+2021-08-25 00:31:55.464 DEBUG 7648 --- [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator root web endpoint
+2021-08-25 00:31:55.468 DEBUG 7648 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-08-25 00:31:55.474 DEBUG 7648 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{_links={self=[Link@165a52da href = 'http://localhost:8080/demo/actuator'], beans=[Link@61d48222 hre (truncated)...]
+2021-08-25 00:31:55.481 DEBUG 7648 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
